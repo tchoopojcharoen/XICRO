@@ -32,7 +32,7 @@ To overcome this limitation, a software library is needed that allows any-bit ar
     source ~/xxx_ws/install/setup.bash
   ```
   - ### install python library
-    The code generation features of XICRO relies on certain Python libraries. If you are not using "serial" in any of your project, you may run the following lines of commands. Otherwise, the library name has to change.
+    The code generation feature of XICRO relies on certain Python libraries. If you are not using "serial" in any of your project, you may run the following lines of commands. Otherwise, the library name has to change.
     ```bash
     pip3 uninstall serial
     pip3 install pyserial
@@ -51,7 +51,7 @@ To overcome this limitation, a software library is needed that allows any-bit ar
 
 ## Configuration file: setup_xicro.yaml  
 
-In this configuration file, you can modify the following parameters to match your need. 
+In this configuration file, you can modify the following parameters to match your needs. 
   - ### microcontroller
       
     - 1\. idmcu : This sets the ID of the MCU of the generated contents. [0-15] 
@@ -191,4 +191,4 @@ The Python executabe will be generated based on "setup_xicro.yaml". The executab
 
 - Verify the permission for the open port 
   
-- Execute the generate Python executable (run the generated node)
+- Execute the generated Python executable (run the generated node)
