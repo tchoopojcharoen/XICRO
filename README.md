@@ -189,6 +189,6 @@ The Python executabe will be generated based on "setup_xicro.yaml". The executab
 
 - Connect MCU to the computer
 
-- check the permission for the open port 
+- Verify the permission for the open port 
   
-- execute the generate Python executable (run the generated node)
+- Execute the generate Python executable (run the generated node)
