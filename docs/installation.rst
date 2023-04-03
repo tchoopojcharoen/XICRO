@@ -4,7 +4,7 @@ Installation Guide
 
 Download
 ********
-Simply download this "metapackage_" to your workspace and build it.
+To use XICRO, you must create a meta-package for the code generation called "Xicro" and this repository to that meta-package. Build the workspace to finish the installtion. Assume that the workspace is named [xxx_ws] and located in the Home directory. 
 
 
 .. code-block:: sh
@@ -19,12 +19,13 @@ Simply download this "metapackage_" to your workspace and build it.
 
 .. _metapackage: https://github.com/imchin/Xicro/
 
-Requirements
+Python Library Requirements
 ************
-The requirements for running this project are:
+The code generation feature of XICRO relies on certain Python libraries. One of them being "pyserial", which often get mistaken with "serial". If you use "serial" library in your other project, you must change the name of the library to something else. Another option is to uninstall "serial" library and install "pyserial" instead. 
   - Pyserial_
   - Numpy_
 
-
 .. _Pyserial: https://pythonhosted.org/pyserial/
 .. _Numpy: https://numpy.org/devdocs/reference/index.html#reference
+
+Now you are ready to generate some codes.
