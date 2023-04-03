@@ -1,6 +1,6 @@
 
 
-# XICRO: Firmware & Middleware Code Genration for Interfacing any-bit Microcontroller with ROS2
+# XICRO: Firmware & Middleware Code Generation for Interfacing any-bit Microcontroller with ROS2
 
 (See the document here: https://xicro-ros2.readthedocs.io/en/latest/)
 
