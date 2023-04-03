@@ -1,5 +1,5 @@
-XICRO
-=====
+XICRO: Firmware & Middleware Code Generation for Interfacing any-bit Microcontroller with ROS2
+==============================================================================================
 
 
 The Robot Operating System (ROS) is a popular open-source framework for developing robotic systems. ROS2, the latest version of the framework, is designed to support real-time, distributed systems, and has become a popular choice for robotics researchers and developers. However, one limitation of ROS2 is that it is designed to run on high-performance computers, which can be expensive and impractical for many robotics applications.
