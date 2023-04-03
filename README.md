@@ -1,6 +1,6 @@
 
 
-# xicro: Interface any-bit Microcontroller with ROS2
+# XICRO: Interface any-bit Microcontroller with ROS2
 
 (See the document here: https://xicro-ros2.readthedocs.io/en/latest/)
 
