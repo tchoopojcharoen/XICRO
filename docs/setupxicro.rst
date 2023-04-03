@@ -161,8 +161,9 @@ The Python executabe will be generated based on "setup_xicro.yaml". The executab
 The entry point is automatically added by the command.
     
 
-## General Pipeline for using XICRO
-***************
+General Pipeline for using XICRO
+********************************
+
 1. Generate the firmware library
 2. Generate the Python Executable
 3. Write and upload your firmware to the MCU
