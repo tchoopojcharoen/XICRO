@@ -20,9 +20,10 @@ To use XICRO, you must create a meta-package for the code generation called "Xic
 .. _metapackage: https://github.com/imchin/Xicro/
 
 Python Library Requirements
-
+***************************
 
 The code generation feature of XICRO relies on certain Python libraries. One of them being "pyserial", which often get mistaken with "serial". If you use "serial" library in your other project, you must change the name of the library to something else. Another option is to uninstall "serial" library and install "pyserial" instead. 
+
   - Pyserial_
   - Numpy_
 
