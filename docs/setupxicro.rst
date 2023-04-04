@@ -126,6 +126,12 @@ Generating Firmware library
 The library will be generated based on setup_xicro.yaml. The firmware library .h , .cpp will be created at $generate_library_Path according to setup_xicro.yaml.
 
 .. code-block:: sh
+
+  cd ~/xxx_ws          # cd to your workspace
+  colcon build
+
+
+.. code-block:: sh
   cd ~/xxx_ws/src      #cd to your workspace
   colcon build
   ros2 run xicro_pkg generate_library.py -mcu_type -module_name 
